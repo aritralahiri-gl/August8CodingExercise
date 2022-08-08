@@ -1,4 +1,4 @@
-package handsOn.prog2models;
+package handsOn.prog2.models;
 
 public class Student {
 	private int rollNo;

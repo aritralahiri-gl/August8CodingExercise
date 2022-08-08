@@ -4,8 +4,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Scanner;
 
+import handsOn.prog2.models.Student;
 import handsOn.prog2.services.StudentService;
-import handsOn.prog2models.Student;
 
 public class Main {
 

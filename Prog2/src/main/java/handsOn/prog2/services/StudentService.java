@@ -3,7 +3,7 @@ package handsOn.prog2.services;
 import java.sql.ResultSet;
 
 import handsOn.prog2.dao.StudentDAO;
-import handsOn.prog2models.Student;
+import handsOn.prog2.models.Student;
 
 public class StudentService {
 

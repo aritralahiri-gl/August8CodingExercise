@@ -6,8 +6,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
-
-import handsOn.prog2models.Student;
+import handsOn.prog2.models.Student;
 
 public class StudentDAO {
 
