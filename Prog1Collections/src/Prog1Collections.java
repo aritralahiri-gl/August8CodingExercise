@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -7,12 +8,13 @@ public class Prog1Collections {
 	public static void main(String[] args) {
 
 		m1 = new HashMap<>();
-		m1 = saveCountryCapitial("Kolkata", "WestBengal");
 		m1 = saveCountryCapitial("India", "Delhi");
 		m1 = saveCountryCapitial("Japan", "Tokyo");
 		System.out.println(m1);
-		System.out.println(getCapitial("Kolkata"));
+		System.out.println(getCapitial("India"));
 		System.out.println(getCountry("Tokyo"));
+		System.out.println(getAllCountry(m1));
+		System.out.println();
 
 	}
 
@@ -36,6 +38,14 @@ public class Prog1Collections {
 			m2.put(e.getValue(), e.getKey());
 		}
 		return m2;
+	}
+
+	public static ArrayList<String> getAllCountry(HashMap<String, String> m1) {
+		ArrayList<String> res = new ArrayList<>();
+		for (Map.Entry<String, String> e : m1.entrySet()) {
+			res.add(e.getKey());
+		}
+		return res;
 	}
 
 }
