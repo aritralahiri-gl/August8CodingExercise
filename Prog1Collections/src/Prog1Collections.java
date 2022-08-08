@@ -14,6 +14,7 @@ public class Prog1Collections {
 		System.out.println(getCapitial("India"));
 		System.out.println(getCountry("Tokyo"));
 		System.out.println(getAllCountry(m1));
+		System.out.println();
 
 	}
 
