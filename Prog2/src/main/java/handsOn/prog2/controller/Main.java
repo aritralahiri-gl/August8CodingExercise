@@ -24,6 +24,7 @@ public class Main {
 		sc.nextLine();
 		System.out.println("Enter student dob");
 		String dob = sc.next();
+		System.out.println();
 		sc.close();
 
 		Student st = new Student(roll, fees, name, standard, dob);
