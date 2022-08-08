@@ -30,9 +30,9 @@ public class Main {
 		StudentService svr = new StudentService();
 		System.out.println(svr.insertStudent(st));
 //		Without RollNo Passed will display all the records
-//		ResultSet rs = svr.showStudents();
+		ResultSet rs = svr.showStudents();
 //		With RollNo will display particular record
-		ResultSet rs = svr.showStudents(9896);
+//		ResultSet rs = svr.showStudents(9896);
 
 		try {
 			while (rs.next()) {
